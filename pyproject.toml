@@ -1,13 +1,13 @@
 [project]
 name = "jishocli"
 version = "0.1.0"
-description = "Add your description here"
+description = "A friendly terminal Japanese dictionary and study companion powered by Jisho"
 readme = "README.md"
 authors = [
     { name = "Alexeev Bronislav", email = "alexeev.dev@mail.ru" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = ["Janome>=0.5,<0.6"]
 
 [project.scripts]
 jishocli = "jishocli:main"
